@@ -1,4 +1,4 @@
-export default function EmailGet()
+export default function GetEmail()
 {
     return(
         <div class="emailbody">
