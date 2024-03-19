@@ -1,0 +1,86 @@
+.contactContainer{
+    display: flex;
+    width: 100%;
+}
+
+
+.contactLeft{
+    flex:4;
+    width: 656px;
+    height: 760px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F88484;
+    background: #FFEAEA;
+    margin-top: 150px;
+    margin-left: 25px;
+
+}
+.middle{
+    flex:1;
+}
+
+.contactRight{
+    flex:4;
+    width: 617px;
+    height: 760px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F9CACA;
+    margin-top: 150px;
+    margin-right: 25px;
+    align-items: center;
+
+}
+
+.Text{
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 2%;
+
+}
+
+.text{
+    margin-left: 110px;
+}
+
+.iconContainer{
+    padding: 20px;
+}
+
+.Icons{
+    display: flex;
+    list-style: none;
+    padding: 50px;
+    border-radius: 10px;
+
+svg{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+
+.Icon{
+    align-items: center;
+    justify-content: center;
+    background-color: #FEDADA;
+    margin-right: 20px;
+}
+
+.IconText{
+    font-weight: bolder;
+
+}
+
+
+.formContainer{
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
