@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye+Marrow&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+
+
+}
+.heading{
+ width: 100%;
+ height:100px;
+ background-color: #ffb7c5 ;
+ position: fixed;
+ overflow: hidden;
+ z-index: 99;
+
+
+}
+.logo{
+ width: 70px;
+ height: 70px;
+ position:fixed;
+ left:53.5px;
+ top:10px;
+
+}
+.navbar{
+ width: 550px;
+ height: 45px;
+ position: fixed;
+ left:850px;
+ top:25px;
+
+
+}
+.content{
+	width: 100%;
+	height: 818px;
+	background-color:  #ffe4e1;
+	
+}
+.navbar{
+	width: 550px;
+	height: 45px;
+	position: fixed;
+	left:850px;
+	top:25px;
+
+
+}
+.b1 , .b2 ,.b3 , .b4{
+	width:  100px;
+	height: 35px;
+	margin: 10px;
+	border-radius: 5%;
+	background-color: #FFCFCF;
+	border-width: 1px;
+	border-color: black;
+
+}
+.b1:hover , .b2:hover ,.b3:hover , .b4:hover {
+	background-color: white;
+	border-color: #cc3366;
+}
+
+.topic{
+	 font-family: "Ribeye Marrow", serif;
+	 font-size: 60px;
+	 color: #A1A1E1;
+	 font-weight: bold;
+	 margin-top: 8%;
+	 padding-left: 70%;
+	 position: absolute;
+}
+.feeding1{
+	width: 700px;
+	height: 250px;
+	position:absolute;
+	margin-top: 30%;
+	margin-left: 5%;
+}
+.formula{
+	width: 350px;
+	height: 500px;
+	margin-top: 16%;
+	margin-left: 70%;
+	position: absolute;
+}
+.fT1{	
+	position:absolute ;
+	margin-right: 40%;
+	text-align: left;
+  margin-top: 12%;
+	margin-left:6% ;
+
+}
+.topic1{
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+}
+.topicF2{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 60px;
+    color: #A1A1E1;
+    font-weight: bold;
+    margin-top: 8%;
+    padding-left: 10%;
+    position: absolute;
+}
+.schedule1{
+	width: 350px;
+	height: 500px;
+	margin-top: 16%;
+	margin-left: 25%;
+	position: absolute;
+	border-radius: 50%;
+}
+.month3{
+	margin-left: 74%;
+	margin-top: 32%;
+	width: 350px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.mon{
+	margin-left: 79%;
+	margin-top: 14%;
+	width: 300px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.dataM{
+	margin-left: 3%;
+	margin-top: 15%;
+	margin-right: 75%;
+	position: absolute;
+
+}
+.topicB1{
+	font-family: "Poppins", sans-serif;
+}
+.data2{
+	margin-left: 53%;
+	margin-top: 15%;
+	margin-right: 25%;
+	position: absolute;
+}
+.topicM3{
+    font-family: "Piedra", serif;
+    font-size: 60px;
+    color: #A1A1E1;
+    font-weight: bold;
+    margin-top: 8%;
+    padding-left: 5%;
+    position: absolute;
+}
+.scheduleM3{
+	width: 350px;
+	height: 500px;
+	margin-top: 10%;
+	margin-left: 75%;
+	position: absolute;
+	border-radius: 40%;
+}
+.bottle{
+	margin-left: 47%;
+	margin-top: 30%;
+	width: 350px;
+	height: 270px;
+	position: absolute;
+	border-radius: 40%;
+}
+.dataMonth3{
+	margin-left: 3%;
+	margin-top: 15%;
+	margin-right: 30%;
+	position: absolute;
+	text-align: justify;
+
+}
+.topicMonth3{
+	font-family: "Poppins", sans-serif;
+	margin-top: 29%;
+	margin-left: 2%;
+	position: absolute;
+}
+.point{
+	margin-left: 5%;
+	margin-top: 33%;
+	position: absolute;
+}
+.topicMonth6{
+    font-family: "Risque", serif;
+    font-size: 60px;
+    color: #A1A1E1;
+    font-weight: bold;
+    margin-top: 8%;
+    padding-left: 20%;
+    position: absolute;
+}
+.scheduleMonth6{
+	width: 350px;
+	height: 500px;
+	margin-top: 12%;
+	margin-left: 3%;
+	position: absolute;
+	border-radius: 40%;
+}
+.baby6{
+	margin-left: 30%;
+	margin-top: 15%;
+	width: 300px;
+	height: 270px;
+	position: absolute;
+	
+}
+.month6{
+	margin-top: 37%;
+	margin-left: 30%;
+	position: absolute;
+}
+.head1{
+	margin-left: 55%;
+	margin-top: 37%;
+	position: absolute;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+.head2{
+	margin-left: 55%;
+	margin-top: 43%;
+	position: absolute;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+.description1{
+	margin-left: 55%;
+	margin-top: 38.5%;
+	margin-right: 10%;
+	position: absolute;
+}
+.description2{
+	margin-left: 55%;
+	margin-top: 45%;
+	margin-right: 10%;
+	position: absolute;
+}
+.d1{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.list1{
+	padding-left: 8%;
+	padding-right: 5%;
+}
+.pointMonth6{
+	margin-left: 60%;
+	margin-top:15%;
+	position: absolute;
+	background-color: #A8FFF0;
+	width: 35%;
+	height: 40%;
+	font-weight: bold;
+}
+.topicMonth11{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 60px;
+    color: #A1A1E1;
+    font-weight: bold;
+    margin-top: 8%;
+    padding-left: 10%;
+    position: absolute;
+}
+.scheduleMonth11{
+	width: 350px;
+	height: 500px;
+	margin-top: 16%;
+	margin-left: 28%;
+	position: absolute;
+	border-radius: 50%;
+}
+.month11{
+	margin-left: 74%;
+	margin-top: 32%;
+	width: 300px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.mon11{
+	margin-left: 79%;
+	margin-top: 14%;
+	width: 280px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.data11{
+	margin-left: 3%;
+	margin-top: 15%;
+	margin-right: 75%;
+	position: absolute;
+
+}
+.topic11{
+	font-family: "Poppins", sans-serif;
+}
+.datamonth11{
+	margin-left: 3%;
+	margin-top: 27%;
+	margin-right: 25%;
+	position: absolute;
+}
+.data3{
+	margin-left: 3%;
+	margin-top: 35%;
+	margin-right: 25%;
+	position: absolute;
+}
+.data4{
+	margin-left: 53%;
+	margin-top: 20%;
+	margin-right: 25%;
+	position: absolute;
+}
+.data5{
+	margin-left: 53%;
+	margin-top: 30%;
+	margin-right: 25%;
+	position: absolute;
+}
+.list11{
+	margin-left: 10%;
+}
+.topic12{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 60px;
+    color: #A1A1E1;
+    font-weight: bold;
+    margin-top: 8%;
+    padding-left: 10%;
+    position: absolute;
+}
+.schedule12{
+	width: 350px;
+	height: 500px;
+	margin-top: 16%;
+	margin-left: 28%;
+	position: absolute;
+	border-radius: 50%;
+}
+.babyT{
+	margin-left: 74%;
+	margin-top: 32%;
+	width: 300px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.monT{
+	margin-left: 79%;
+	margin-top: 14%;
+	width: 280px;
+	height: 270px;
+	border-radius: 50%;
+	position: absolute;
+}
+.data12{
+	margin-left: 3%;
+	margin-top: 15%;
+	margin-right: 75%;
+	position: absolute;
+
+}
+.topic12{
+    font-family: "Piedra", serif;
+}
+.datamonth{
+	margin-left: 3%;
+	margin-top: 30%;
+	margin-right: 35%;
+	position: absolute;
+}
+.dataT3{
+	margin-left: 53%;
+	margin-top: 15%;
+	margin-right: 25%;
+	position: absolute;
+}
+.dataT4{
+	margin-left: 53%;
+	margin-top: 32%;
+	margin-right: 25%;
+	position: absolute;
+}
+.listm1{
+	margin-right: 60%;
+	margin-left: 5%;
+
+}
+.listmonth12{
+	margin-left: 10%;
+}
+.listmt{
+	margin-left: 10%;
+}
+
+.growth{
+	margin-top: 22%;
+	margin-left: 34%;
+	width: 200PX;
+	height: 180PX;
+	border-radius: 50%;
+	position: absolute;
+	
+}
+
+.movement{
+	margin-top: 33%;
+	margin-left: 40%;
+	width: 200PX;
+	height: 180PX;
+	border-radius: 50%;
+	position: absolute;
+}
+.feeding{
+	margin-top: 37%;
+	margin-left: 53%;
+	width: 200PX;
+	height: 180PX;
+	border-radius: 50%;
+	position: absolute;
+	
+}
+.vaccination{
+	margin-top: 33%;
+	margin-left: 66.5%;
+	width: 200PX;
+	height: 180PX;
+	border-radius: 50%;
+	position: absolute;
+	
+}
+.worm{
+	margin-top: 21.5%;
+	margin-left: 71%;
+	width: 200PX;
+	height: 180PX;
+	border-radius: 50%;
+	position: absolute;
+	
+}
+.growth:hover{
+	border: 4px solid white;
+}
+.movement:hover{
+	border: 4px solid white;
+}
+.feeding:hover{
+	border: 4px solid white;
+}
+.vaccination:hover{
+	border: 4px solid white;
+}
+.worm:hover{
+	border: 4px solid white;
+}
+.growth:hover .text1{
+	display: block;
+}
+.descriptionmonth {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 70%;
+    text-align: center;
+  
+  }
+  .name1{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+.month1baby{
+    width: 30%;
+    height: 520px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 45%;
+}
