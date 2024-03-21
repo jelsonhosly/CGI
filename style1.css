@@ -247,3 +247,24 @@ td{
 	padding-left: 100px;
 	font-weight: bold;
 }
+.footer{
+	
+	top:772px;
+	
+}
+.footer1{
+	
+	top:2625px;
+	
+}
+.footer , .footer1{
+    width: 100%;
+	height: 100px;
+	position: absolute;
+    box-sizing: border-box;
+	background-image: url('./assets/footer3.jpg');
+}
+.footer p, .footer1 p{
+	margin-top: 50px;
+	font-size: 12px;
+}
