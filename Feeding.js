@@ -50,6 +50,15 @@ function Feeding() {
       setTransitioning(false);
     }, 500);
   };
+  
+  useEffect(() => {
+    // Set showAgeGroups to true after a delay to trigger the transition effect
+    const timer = setTimeout(() => {
+      setTransitioning(false);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [currentAgeGroup]);
+
   return (
     <div>
     <div className="container1">
