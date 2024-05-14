@@ -43,6 +43,13 @@ function Feeding() {
     }, 500);
   };
 
+    const handlePrev = () => {
+    setTransitioning(true);
+    setTimeout(() => {
+      setCurrentAgeGroup(prev => (prev === 0 ? ageGroups.length - 1 : prev - 1));
+      setTransitioning(false);
+    }, 500);
+  };
   return (
     <div>
     <div className="container1">
