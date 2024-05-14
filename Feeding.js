@@ -34,6 +34,15 @@ function Feeding() {
       content: "Continue providing balanced meals with increasing portion sizes. Offer foods suitable for the child's age and encourage healthy eating habits."
     }
   ];
+
+  const handleNext = () => {
+    setTransitioning(true);
+    setTimeout(() => {
+      setCurrentAgeGroup(prev => (prev === ageGroups.length - 1 ? 0 : prev + 1));
+      setTransitioning(false);
+    }, 500);
+  };
+
   return (
     <div>
     <div className="container1">
