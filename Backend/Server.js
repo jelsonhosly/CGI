@@ -90,3 +90,29 @@ app.post('/login', (req, res) => {
       return res.json({ token, username: user.username });
     });
   });
+
+  app.post('/adminsignup', (req, res) => {
+    const { email, username, password } = req.body;
+  
+    if (!email || !username || !password) {
+      return res.status(400).json({ error: 'Email, username, and password are required' });
+    }
+  
+    // Hash the password
+    bcrypt.hash(password, 10, (err, hashedPassword) => {
+      if (err) {
+        console.error('Error hashing password:', err);
+        return res.status(500).json({ error: 'Error creating new user' });
+      }
+  
+      // Insert the new user into the database
+      db.query('INSERT INTO admin (email, username, password) VALUES (?, ?, ?)', [email, username, hashedPassword], (error, results) => {
+        if (error) {
+          console.error('Error creating new Admin:', error);
+          return res.status(500).json({ error: 'Error creating new Admin' });
+        } else {
+          return res.json({ message: 'Admin created successfully' });
+        }
+      });
+    });
+  });
