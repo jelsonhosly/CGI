@@ -25,3 +25,33 @@ const SignupForm = () => {
       // Handle signup failure
     }
   };
+
+   return (
+    <Container>
+      <Row className="justify-content-center align-items-center mt-3">
+        <Col md={6}>
+          <Card>
+          <CardBody>
+            <CardTitle tag="h5" className="text-center mb-4">Admin Sign Up</CardTitle>
+            <CardImg top src={heroImage} alt="Hero Image" className="img-fluid mb-4" />
+            <Form>
+              <FormGroup>
+                <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+              </FormGroup>
+              <FormGroup>
+                <Input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" />
+              </FormGroup>
+              <FormGroup>
+                <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+              </FormGroup>
+              <Button color="info" block onClick={handleSignup}>Sign Up</Button>
+            </Form>
+          </CardBody>
+        </Card>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default SignupForm;
