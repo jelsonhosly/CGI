@@ -67,3 +67,4 @@ return (
     </Container>
   );
 };
+export default LoginForm;
