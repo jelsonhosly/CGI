@@ -29,7 +29,7 @@ to detect problems early
             </div>
             <br/><br/>
 
-            <video className='vedio'>
+            <video className='vedio' controls>
                 <source src={v1} ></source> 
             </video>
 
@@ -74,8 +74,10 @@ to detect problems early
          </ul>
 
  </div>
+
       )}
     </div>
+
           <br/><br/> 
             <div >
             <div className='last'>Therefore, it is important to follow the following basic points to protect the oral health of young children</div>
@@ -104,31 +106,3 @@ to detect problems early
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-  
-
-  
-
-
- 
-
-  
-  
-
- 
