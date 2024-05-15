@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	 line-height: 1.6;
+
+}
+.container{
+	width:80%;
+	height: 1000px;
+	/*background-color: pink;*/
+	margin-left: 10%;
+}
+.headings{
+	font-family: cursive;
+	font-size: 28px;
+	text-align: center;
+}
+.div1{
+	padding: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border:solid  black 1px ;
+	text-align: center;
+}
+.a1{
+	
+	width: 400px;
+	height: 300px;
+
+}
+.a1 , ul{
+	display: inline-block;
+}
+
+.ya1{
+	width: 300px;
+	height: 350px;
+
+}
+
+.description ul{
+	
+	/*list-style-image: url('s1.png');*/
+	list-style: none;
+	
+}
+.description li{
+	margin-left: 220px;
+	
+
+}
+
+img{
+	width: 290px;
+	height: 230px;
+
+}
+.Parent 
+{ 
+	
+	width: 100%;
+    display: flex; 
+    flex-direction: row; 
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+} 
+ .image
+ {
+ 	width: 400px;
+ 	height: 250px;
+ 	
+ 	position: relative;
+	top:40px;
+ }
+#listImage{
+	width: 80%;
+	height: 200px;
+}
+    
+ /*background: url('i10.jpg') no-repeat center center/cover, linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));*/
+ /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('i10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   */  	
+
+.toggleImage{
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	 filter: drop-shadow(gray 0.5rem 0.5rem 10px);
+	border-radius:50%;
+	
+
+}
+.toggleImage:hover
+{
+	border: 5px solid gray;
+	
+}
+.toggleImage:hover .monthnumber
+{
+	
+	font-size: 60px;
+}
+.description {
+  
+  /* Hide the description div by default */
+}
+.monthnumber{
+	font-size: 50px;
+	font-family: 'Rubik One';
+}
+.gallery {
+  width: 100%; /* Set the width of the gallery */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent images from wrapping */
+  
+}
+
+.gallery::-webkit-scrollbar{
+	display: none;
+}
+.gallery .toggleImage{
+ display: inline-block;
+  margin-right: 15px; /* Add some space between images */
+  vertical-align: top; /* Align images to the top */
+}
+.para{
+	padding: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.ImTable{
+	width: 100%;
+	
+}
+.ImTable, th, td {
+  
+  border-collapse: collapse;
+  border: 3px solid #96D4D4;
+}
+.ImTable td{
+	padding: 15px;
+}
+.ImTable li{
+	list-style: none;
+
+}
+.desc{
+	margin-left: 50px;
+	text-align: justify;
+}
+.fdiv{
+	border: 1px solid black;
+	padding: 10px;
+}
+.conatiner p{
+	text-align: justify;
+}
+.dpara{
+	text-align: justify;
+	margin-left: 50px;
+}
+.active {
+    background-color:lightgray; /* Set the desired background color */
+}
+
+
