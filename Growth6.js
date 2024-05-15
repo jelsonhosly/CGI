@@ -56,6 +56,10 @@ function Growth6() {
               <div className="row3">
 
               </div>
+    {/* Footer */}
+      <div className="footer">
+        <center><p>©2023 Child Growth Indicator | All Rights Reserved</p></center>
+      </div>
           </div></>
   );
 }
