@@ -26,3 +26,38 @@ app.post('/login', (req, res) => {
       return res.json({ token, childId: user.ChildID, username: user.username });
     });
   });
+
+  app.post('/signup', (req, res) => {
+    const { email, username, password } = req.body;
+  
+    if (!email || !username || !password) {
+      return res.status(400).json({ error: 'Email, username, and password are required' });
+    }
+  
+    // Generate a ChildID
+    db.query('SELECT MAX(ChildID) AS maxChildID FROM childdetails', (error, results) => {
+      if (error) {
+        console.error('Error querying database:', error);
+        return res.status(500).json({ error: 'Internal server error' });
+      }
+  
+      let childID = results[0].maxChildID ? results[0].maxChildID + 1 : 1;
+  
+      // Insert the new user into the database
+      bcrypt.hash(password, 10, (err, hashedPassword) => {
+        if (err) {
+          console.error('Error hashing password:', err);
+          return res.status(500).json({ error: 'Error creating new user' });
+        }
+  
+        db.query('INSERT INTO users (ChildID, email, username, password) VALUES (?, ?, ?, ?)', [childID, email, username, hashedPassword], (error, results) => {
+          if (error) {
+            console.error('Error creating new user:', error);
+            return res.status(500).json({ error: 'Error creating new user' });
+          } else {
+            return res.json({ message: 'User created successfully', childID });
+          }
+        });
+      });
+    });
+  });
