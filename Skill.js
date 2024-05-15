@@ -11,11 +11,14 @@ export default function Skill(){
 
   const [isVisible1, setIsVisible1] = useState(true);
 
+  
   const toggleVisibility1 = () => {
     setIsVisible1(!isVisible1);
   };
+
   
     return(
+
         <div className='content1'>
             <div className='maintopic'>SKILLFUL PARENTING</div>
             

@@ -10,7 +10,9 @@ export default function Physical(){
 
             <div>Given below is how children of different age groups should engage in different activities every day.</div><br/>
 
+
             <div>
+                
                 <table className='table'>
                     <tr>
                         <th rowSpan={2}>Age</th>
