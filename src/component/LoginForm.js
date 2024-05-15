@@ -77,3 +77,4 @@ const LoginForm = () => {
   </Container>
   );
 };
+export default LoginForm;
