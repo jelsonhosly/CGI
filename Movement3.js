@@ -32,7 +32,7 @@ function Movement3() {
               <p>Around three months of age, infants start to acquire greater mastery over their neck muscles. They might raise their chest and head off the ground during tummy time and use their arms to support themselves. This prepares them for future physical development, such as sitting up and crawling, by strengthening the muscles in their neck and upper body.</p>
             </div>
             <div className="subtopic">
-              <h3>Kicking Legs and Moving Arms</h3>
+              <h3>Kicking Legs and Moving Arm</h3>
               <p>Babies at this age begin to experiment with movement and become more conscious of their limbs, as evidenced by their kicks and arm movements. When lying on their back or when they are held upright, they may kick their legs ferociously to convey their excitement and vitality. They will also wave their arms around, experimenting with how to manipulate their own motions and engage with nearby objects.</p>
             </div>
             <div className="subtopic">
