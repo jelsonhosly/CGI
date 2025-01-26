@@ -40,7 +40,7 @@ function Movement3() {
               <p>Babies as young as three months old start to exhibit hand-eye coordination and start reaching for objects that catch their attention. They might grab onto things that are in their direct line of sight or swipe at toys that are suspended above them. This is the start of their ability to manipulate objects and use touch to investigate their surroundings.</p>
             </div>
             <div className="subtopic">
-              <h3>Turning Head to Follow Objects or Sounds</h3>
+              <h3>Turning Head to Follow Objects or Sound</h3>
               <p>Babies' developing senses enable them to turn their heads to follow objects or sounds, and they also become more receptive to the sights and sounds around them. They can show that they are becoming more aware of their surroundings by turning their head to follow moving objects or orient toward familiar sounds</p>
             </div>
           </div>
